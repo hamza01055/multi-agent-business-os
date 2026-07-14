@@ -1,0 +1,32 @@
+name: ai_business_os
+description: AI Business OS mobile client — chat, voice, files, workspaces.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0                    # HTTP client
+  flutter_riverpod: ^2.5.1       # state management
+  flutter_secure_storage: ^9.0.0 # JWT storage
+  hive: ^2.2.3                   # offline cache
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^6.0.3      # online/offline detection
+  speech_to_text: ^6.6.0         # voice assistant input
+  flutter_tts: ^4.0.2            # voice assistant output
+  file_picker: ^8.0.3            # file upload
+  firebase_core: ^3.1.0          # push notifications
+  firebase_messaging: ^15.0.1
+  flutter_markdown: ^0.7.1       # render AI answers
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

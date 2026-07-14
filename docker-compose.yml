@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    ports: ["8080:80"]
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on: [api]
+
+  api:
+    build: ./backend
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    env_file: .env
+    volumes:
+      - uploads:/data/uploads
+      - vectors:/data/vectors
+    depends_on:
+      db: { condition: service_healthy }
+      redis: { condition: service_started }
+
+  worker:
+    build: ./backend
+    command: celery -A app.workers.celery_app.celery worker -l info -Q default,ingest,audio,ocr,agents
+    env_file: .env
+    volumes:
+      - uploads:/data/uploads
+      - vectors:/data/vectors
+    depends_on: [db, redis]
+
+  beat:
+    build: ./backend
+    command: celery -A app.workers.celery_app.celery beat -l info
+    env_file: .env
+    depends_on: [redis]
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: aibos
+      POSTGRES_PASSWORD: aibos
+      POSTGRES_DB: aibos
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aibos"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    volumes: [redisdata:/data]
+
+  flower:
+    build: ./backend
+    command: celery -A app.workers.celery_app.celery flower --port=5555
+    ports: ["5555:5555"]
+    env_file: .env
+    profiles: [debug]
+    depends_on: [redis]
+
+volumes:
+  pgdata:
+  redisdata:
+  uploads:
+  vectors:

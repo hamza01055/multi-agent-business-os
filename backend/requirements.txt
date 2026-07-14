@@ -1,0 +1,40 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+sqlalchemy[asyncio]==2.0.31
+asyncpg==0.29.0
+psycopg[binary]==3.1.19
+alembic==1.13.2
+redis==5.0.7
+celery==5.4.0
+flower==2.0.1
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.27.0
+sse-starlette==2.1.2
+
+# AI stack
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-openai==0.1.14
+langgraph==0.1.5
+faiss-cpu==1.8.0
+pymilvus==2.4.4
+sentence-transformers==3.0.1
+tiktoken==0.7.0
+openai-whisper==20231117
+
+# Loaders / OCR / media
+pypdf==4.2.0
+python-docx==1.1.2
+python-pptx==0.6.23
+beautifulsoup4==4.12.3
+youtube-transcript-api==0.6.2
+pytesseract==0.3.10
+pypdfium2==4.30.0
+Pillow==10.4.0
+
+# Push
+firebase-admin==6.5.0
