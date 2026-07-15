@@ -12,6 +12,7 @@
 - Multi-tenant **team workspaces** with a shared knowledge base
 - Full **Flutter mobile app** with voice, offline cache, and push notifications
 
+
 ## Modules
 | Module | Endpoint | Core tech |
 |---|---|---|
