@@ -3,6 +3,7 @@
 > Not just another chatbot — a production-grade AI platform that automates business work
 > using multiple cooperating AI agents, RAG, OCR, speech, and workflow automation.
 
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green) ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B) ![LangGraph](https://img.shields.io/badge/LangGraph-agents-orange) ![Docker](https://img.shields.io/badge/Docker-compose-2496ED)
 
 ## Why it stands out
