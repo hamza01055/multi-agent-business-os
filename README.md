@@ -1,6 +1,7 @@
 <div align="center">
 <!-- BANNER: Replace with your project banner (recommended 1280×400) -->
-# 🧠 AI Business OS
+🧠 AI Business OS
+
 
  
 ### The AI Business Operating System
