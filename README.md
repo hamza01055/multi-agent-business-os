@@ -7,6 +7,8 @@
 ### The AI Business Operating System
  
 **Not just another chatbot — a production-grade AI platform that automates business work using multiple cooperating AI agents, RAG, OCR, speech, and workflow automation.**
+
+
  
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
