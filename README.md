@@ -94,9 +94,18 @@ Most AI projects are a single chat endpoint wrapped around one model. AI Busines
 | 🔍 **Research Agent** | LangGraph plan → search → synthesize loop |
 | 📊 **Report Generator** | Agent + templating pipeline executed by Celery |
 | 🕸️ **Multi-Agent Workflows** | LangGraph supervisor coordinating worker agents |
- 
+# Demo of project 
 ---
- 
+<img width="424" height="378" alt="Screenshot 2026-08-05 203435" src="https://github.com/user-attachments/assets/ebe56b7d-0d18-4aa9-b0e0-0d1975284e0b" />
+<img width="424" height="380" alt="Screenshot 2026-08-05 203421" src="https://github.com/user-attachments/assets/0574844d-5959-47dd-a1f5-1e658ce1be02" />
+<img width="419" height="376" alt="Screenshot 2026-08-05 203410" src="https://github.com/user-attachments/assets/a1180d2a-4f45-4c17-b9bf-3fc0369800ff" />
+<img width="418" height="380" alt="Screenshot 2026-08-05 203358" src="https://github.com/user-attachments/assets/2a9f4730-401f-4ceb-93b7-ec26dd14f8c8" />
+<img width="419" height="382" alt="Screenshot 2026-08-05 203344" src="https://github.com/user-attachments/assets/1fb5d5e4-f95b-49e4-9ad0-ab69603903dc" />
+<img width="424" height="381" alt="Screenshot 2026-08-05 203330" src="https://github.com/user-attachments/assets/0374983c-49d5-44c2-ad89-06629752470e" />
+<img width="422" height="380" alt="Screenshot 2026-08-05 203506" src="https://github.com/user-attachments/assets/6de72670-f7aa-42ce-b321-0da1e83e28ea" />
+<img width="422" height="381" alt="Screenshot 2026-08-05 203455" src="https://github.com/user-attachments/assets/e7a0a8c3-acb8-4219-898d-4321fcc555fd" />
+<img width="424" height="380" alt="Screenshot 2026-08-05 203445" src="https://github.com/user-attachments/assets/c47c12c8-1ea0-4e8b-bb88-b8b948399e4e" />
+
 ## 🏗️ Architecture
  
 ### High-Level Architecture
