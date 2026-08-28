@@ -2,20 +2,9 @@
  
 <!-- BANNER: Replace with your project banner (recommended 1280×400) -->
 🧠 AI Business OS
-
-
-
-
-
-
-
- 
-### The AI Business Operating System
+## The AI Business Operating System
  
 **Not just another chatbot — a production-grade AI platform that automates business work using multiple cooperating AI agents, RAG, OCR, speech, and workflow automation.**
-
-
- 
 
  
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -27,6 +16,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
  
 [Overview](#-overview) •
 [Features](#-key-features) •
