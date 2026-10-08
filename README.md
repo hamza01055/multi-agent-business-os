@@ -4,25 +4,8 @@
 🧠 AI Business OS
 ## The AI Business Operating System
  
-
-
-
 **Not just another chatbot — a production-grade AI platform that automates business work using multiple cooperating AI agents, RAG, OCR, speech, and workflow automation.**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
@@ -32,7 +15,6 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
  
 [Overview](#-overview) •
 [Features](#-key-features) •
@@ -46,6 +28,7 @@
 ---
  
 ## 📖 Overview
+
  
 **AI Business OS** is a full-stack, multi-tenant AI platform that brings LLMs, Retrieval-Augmented Generation (RAG), multi-agent orchestration, OCR, and speech processing together into one coherent system for automating everyday business work — from chatting with documents and websites to summarizing meetings, reading invoices, drafting emails, and running autonomous research workflows.
  
